@@ -20,10 +20,6 @@ This gateway is designed to run on Cloudflare Workers, providing low-latency exe
 │                   Control Plane         │
 │                     (aihf.io)           │
 │                                         │
-│   ┌─────────┐ ┌─────────┐ ┌─────────┐   │
-│   │   App   │ │  Work   │ │  Admin  │   │
-│   │ Domain  │ │ Domain  │ │ Domain  │   │
-│   └─────────┘ └─────────┘ └─────────┘   │
 └──────────────────────┬──────────────────┘
                        │
                        │ Control Data Sync 
